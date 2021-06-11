@@ -6,7 +6,7 @@
 
   <h3 align="center">Swift Study</h3>
   <p align="center">
-    Project to study Swift 5.4
+    Project to study Swift
   </p>
 </p>
 
