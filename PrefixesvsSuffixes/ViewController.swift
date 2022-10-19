@@ -42,13 +42,13 @@ class ViewController: UIViewController {
     func isPrefix(_ word: String, _ prefixer: String) -> Bool {
         var newPrefixer = prefixer
         newPrefixer = newPrefixer.replacingOccurrences(of: "-", with: "")
-        return word.contains(newPrefixer)
+        return word.isPrefix(newPrefixer)
     }
 
     func isSuffix(_ word: String, _ suffixer: String) -> Bool {
         var newSuffixer = suffixer
         newSuffixer = newSuffixer.replacingOccurrences(of: "-", with: "")
-        return word.contains(newSuffixer)
+        return word.isSuffix(newSuffixer)
     }
 
 
